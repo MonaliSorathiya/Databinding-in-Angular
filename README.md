@@ -1,6 +1,14 @@
-# StringInteropolationInAngular
+# DataBinding in Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
+
+## String Interpolation - One-Way Data Binding
+
+![SI](https://user-images.githubusercontent.com/43896737/93000000-f1b46700-f542-11ea-822e-ecbd5d9fe5de.PNG)
+
+## Property Binding - One-Way Data Binding
+
+![SI](https://user-images.githubusercontent.com/43896737/93000000-f1b46700-f542-11ea-822e-ecbd5d9fe5de.PNG)
 
 ## Development server
 
