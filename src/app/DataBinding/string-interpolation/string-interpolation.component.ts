@@ -18,7 +18,7 @@ export class StringInterpolationComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  myMethod(): string{
+  myMethod(): string {
     return 'String Interpolation used for ' + this.title;
   }
 

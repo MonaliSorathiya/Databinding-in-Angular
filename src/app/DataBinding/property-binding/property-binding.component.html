@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row">
+    <!-- Header Image -->
+    <br><br>
+    <h1 style="color: white;">Property Binding</h1>
+    <img [src]="concept" class="img" />
+
+    <!-- Property Binding  -->
+    <h2>Property Binding</h2>
+    <div class="col">
+      <input type="text" name="" [value]="title" />
+    </div>
+
+    <!-- With bind-value 2nd way -->
+    <h2>With bind-value 2nd way</h2>
+    <div class="col">
+      <input type="text" name="" bind-value="withbind" />
+    </div>
+
+    <!-- Disabled Attribute -->
+    <h2>Disabled Attribute</h2>
+    <div class="col">
+      <input type="text" [disabled]="true" name="" [value]="title" />
+    </div>
+    <br />
+    <div class="col">
+      <input type="text" [disabled]="false" name="" bind-value="withbind" />
+    </div>
+
+    <!-- Hidden Attribute -->
+    <h2>Hidden Attribute</h2>
+    <div class="col">
+      <input type="text" [hidden]="false" name="" [value]="title" />
+    </div>
+    <br />
+    <div class="col">
+      <input type="text" [hidden]="true" name="" bind-value="withbind" />
+    </div>
+
+    <!-- Dynamic value of Disabled and Hidden Attribute  -->
+    <h2>Dynamic value of Disabled and Hidden Attribute</h2>
+    <div class="col">
+      <input type="text" [disabled]="enable" name="" [value]="title" />
+    </div>
+    <br />
+    <div class="col">
+      <input type="text" [hidden]="!enable" name="" bind-value="withbind" />
+    </div>
+
+    <!-- Ternary Conditional Operator in Property Binding  -->
+    <h2>Ternary Conditional Operator in Property Binding</h2>
+    <div class="col">
+      <input type="text" name="" [value]="appStatus ? status1 : status2" />
+    </div>
+    <br />
+    <div class="col">
+      <input type="text" name="" [value]="appStatus2 ? status1 : status2" />
+    </div>
+  </div>
+</div>
