@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Property Binding - One-Way Data Binding
 
-![SI](https://user-images.githubusercontent.com/43896737/93000000-f1b46700-f542-11ea-822e-ecbd5d9fe5de.PNG)
+![PB](https://user-images.githubusercontent.com/43896737/93000078-7e5f2500-f543-11ea-9d11-30d40bf0222a.PNG)
 
 ## Development server
 
