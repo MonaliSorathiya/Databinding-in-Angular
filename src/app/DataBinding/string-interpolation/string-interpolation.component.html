@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="row">
+    <!-- Header Image -->
+    <img src="{{concept}}" class="img" />
+
+    <!-- Dynamic Name -->
+    <h2>Dynamic Name Example</h2>
+    <div class="col">
+      <h4 style="color: white">{{ title }}</h4>
+    </div>
+
+    <!-- Expression -->
+    <h2>Expression Example</h2>
+    <div class="col">
+      <h4 style="color: white">{{ 5 + 5 }}</h4>
+      <h4 style="color: white">{{ 10 - 5 }}</h4>
+      <h4 style="color: white">{{ 5 * 5 }}</h4>
+      <h4 style="color: white">{{ 10 / 5 }}</h4>
+    </div>
+
+    <!--String Concatenation  -->
+    <h2>String Concatenation Example</h2>
+    <div class="col">
+      <h4 style="color: white">{{ "Welcome " + title }}</h4>
+    </div>
+
+    <!-- JavaScript Property -->
+    <h2>JavaScript Property in Angular using SI</h2>
+    <div class="col">
+      <h4 style="color: white">{{ title.length }}</h4>
+    </div>
+
+    <!-- JavaScript In-bulit Method  -->
+    <h2>JavaScript In-bulit Method in Angular using SI</h2>
+    <div class="col">
+      <h4 style="color: white">{{ title.toUpperCase() }}</h4>
+    </div>
+
+    <!-- Custom Method -->
+    <h2>Custom Method in Angular using SI</h2>
+    <div class="col">
+      <h4 style="color: white">{{ myMethod() }}</h4>
+    </div>
+
+    <!-- Ternary Conditional Operator -->
+    <h2>Ternary Conditional Operator in Angular using SI</h2>
+    <div class="col">
+      <!-- 1st way -->
+      <h4 style="color: green">
+        My App Status is {{ appStatus ? "online" : "offline" }}
+      </h4>
+      <!-- 2nd way -->
+      <h4 style="color: red">
+        My App Status is {{ appStatus2 ? status1 : status2 }}
+      </h4>
+    </div>
+  </div>
+</div>
